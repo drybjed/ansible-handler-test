@@ -1,0 +1,6 @@
+---
+
+- name: Handler from another role
+  debug:
+    msg: 'Handler from role-with-handler'
+

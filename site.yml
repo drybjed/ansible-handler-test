@@ -1,0 +1,14 @@
+---
+
+- hosts: localhost
+
+  roles:
+
+    - role: role-no-handler
+
+- hosts: localhost
+
+  roles:
+
+    - role: role-plus-handler
+

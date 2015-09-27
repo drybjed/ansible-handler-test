@@ -1,0 +1,6 @@
+---
+
+- name: Task that notifies
+  command: 'ls /'
+  notify: [ 'Handler from another role' ]
+

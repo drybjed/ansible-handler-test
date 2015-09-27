@@ -1,0 +1,6 @@
+---
+
+- name: Handler inside role
+  debug:
+    msg: 'Handler in role fired'
+
